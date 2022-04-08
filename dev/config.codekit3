@@ -4,127 +4,23 @@
     {
       "name" : "Process All Remaining Files and Folders",
       "stepType" : 1,
-      "uuidString" : "293962A0-20DC-4D4B-AF9E-13B5C3326E2D"
+      "uuidString" : "6E1A6D9D-AFC9-4338-A7F3-85306CB22A50"
     }
   ],
   "creatorBuild" : "34335",
   "files" : {
-    "\/assets\/chonk.png" : {
-      "ft" : 32768,
-      "iS" : 1088557,
-      "oA" : 0,
-      "oAP" : "\/assets\/chonk.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/css\/styles.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/deploy\/css\/styles-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/deploy\/img\/cards\/tim-wildsmith-FGi6nqTqOcY-unsplash.jpg" : {
-      "ft" : 16384,
-      "iS" : 177232,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/cards\/tim-wildsmith-FGi6nqTqOcY-unsplash.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/cards\/toa-heftiba-ip9R11FMbV8-unsplash.jpg" : {
-      "ft" : 16384,
-      "iS" : 150045,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/cards\/toa-heftiba-ip9R11FMbV8-unsplash.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/hero\/jason-leung-gWZzETD0Ad4-unsplash.jpg" : {
-      "ft" : 16384,
-      "iS" : 215902,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/jason-leung-gWZzETD0Ad4-unsplash.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/logo\/book-icon-logo-design-vector-28056341.png" : {
-      "ft" : 32768,
-      "iS" : 33345,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/logo\/book-icon-logo-design-vector-28056341.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 0
-    },
-    "\/deploy\/js\/scripts-min.js" : {
+    "\/js\/scripts.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/deploy\/js\/scripts-min-min.js",
+      "oAP" : "\/js\/scripts-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/index.html" : {
-      "cB" : 1,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/index.html",
-      "oF" : 1
-    },
-    "\/dev\/js\/scripts.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/deploy\/js\/scripts-min.js",
-      "oF" : 2,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dev\/scss\/base\/_base.scss" : {
+    "\/scss\/base\/_base.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -133,13 +29,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/base\/_base.css",
+      "oAP" : "\/scss\/base\/_base.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/base\/_normalize.scss" : {
+    "\/scss\/base\/_normalize.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -148,13 +44,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/base\/_normalize.css",
+      "oAP" : "\/scss\/base\/_normalize.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/base\/_typography.scss" : {
+    "\/scss\/base\/_typography.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -163,13 +59,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/base\/_typography.css",
+      "oAP" : "\/scss\/base\/_typography.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/components\/_buttons.scss" : {
+    "\/scss\/components\/_buttons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -178,13 +74,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_buttons.css",
+      "oAP" : "\/scss\/components\/_buttons.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/components\/_forms.scss" : {
+    "\/scss\/components\/_forms.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -193,13 +89,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_forms.css",
+      "oAP" : "\/scss\/components\/_forms.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/components\/_navigation.scss" : {
+    "\/scss\/components\/_navigation.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -208,13 +104,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_navigation.css",
+      "oAP" : "\/scss\/components\/_navigation.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/helpers\/_mixins.scss" : {
+    "\/scss\/helpers\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -223,13 +119,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/helpers\/_mixins.css",
+      "oAP" : "\/scss\/helpers\/_mixins.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/helpers\/_variables.scss" : {
+    "\/scss\/helpers\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -238,13 +134,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/helpers\/_variables.css",
+      "oAP" : "\/scss\/helpers\/_variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/layout\/_footer.scss" : {
+    "\/scss\/layout\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -253,13 +149,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/layout\/_footer.css",
+      "oAP" : "\/scss\/layout\/_footer.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/layout\/_header.scss" : {
+    "\/scss\/layout\/_header.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -268,13 +164,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oAP" : "\/scss\/layout\/_header.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/styles.scss" : {
+    "\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -283,30 +179,11 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/deploy\/css\/styles.css",
-      "oF" : 2,
+      "oAP" : "\/scss\/styles.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/README.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/README.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
     }
   },
   "hooks" : [
@@ -316,10 +193,10 @@
 
   },
   "projectAttributes" : {
-    "creationDate" : 670365424.92247903,
-    "displayValue" : "template",
-    "displayValueWasSetByUser" : 1,
-    "iconImageName" : "brackets-tar",
+    "creationDate" : 671064437.05579102,
+    "displayValue" : "dev",
+    "displayValueWasSetByUser" : 0,
+    "iconImageName" : "brackets-forest",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
