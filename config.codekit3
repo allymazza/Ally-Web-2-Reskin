@@ -34,12 +34,25 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/cards\/tim-wildsmith-FGi6nqTqOcY-unsplash.jpg" : {
+    "\/deploy\/img\/cards\/aestheticbooks.jpg" : {
+      "ft" : 16384,
+      "iS" : 122260,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/cards\/aestheticbooks.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/cards\/blacklivesmatter.jpg" : {
       "ft" : 16384,
       "iS" : 177232,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/cards\/tim-wildsmith-FGi6nqTqOcY-unsplash.jpg",
+      "oAP" : "\/deploy\/img\/cards\/blacklivesmatter.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -47,12 +60,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/cards\/toa-heftiba-ip9R11FMbV8-unsplash.jpg" : {
+    "\/deploy\/img\/cards\/bluebooks.jpg" : {
       "ft" : 16384,
       "iS" : 150045,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/cards\/toa-heftiba-ip9R11FMbV8-unsplash.jpg",
+      "oAP" : "\/deploy\/img\/cards\/bluebooks.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -60,12 +73,64 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/hero\/jason-leung-gWZzETD0Ad4-unsplash.jpg" : {
+    "\/deploy\/img\/cards\/books.jpg" : {
+      "ft" : 16384,
+      "iS" : 74680,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/cards\/books.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/cards\/personreading.jpg" : {
+      "ft" : 16384,
+      "iS" : 79030,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/cards\/personreading.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/circle image\/closedbooks.jpg" : {
+      "ft" : 16384,
+      "iS" : 82060,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/circle image\/closedbooks.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/circle image\/openbook.jpg" : {
+      "ft" : 16384,
+      "iS" : 33428,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/circle image\/openbook.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero\/bookstore.jpg" : {
       "ft" : 16384,
       "iS" : 215902,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/jason-leung-gWZzETD0Ad4-unsplash.jpg",
+      "oAP" : "\/deploy\/img\/hero\/bookstore.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -73,11 +138,37 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/logo\/book-icon-logo-design-vector-28056341.png" : {
+    "\/deploy\/img\/hero\/library.jpg" : {
+      "ft" : 16384,
+      "iS" : 278414,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero\/library.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero\/whitebooks.jpg" : {
+      "ft" : 16384,
+      "iS" : 80352,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero\/whitebooks.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/logo\/booklogo.png" : {
       "ft" : 32768,
       "iS" : 33345,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/logo\/book-icon-logo-design-vector-28056341.png",
+      "oAP" : "\/deploy\/img\/logo\/booklogo.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
