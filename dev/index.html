@@ -5,71 +5,187 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/styles.css?ckcachebust=671488051">
+    <link rel="stylesheet" href="styles.scss?ckcachebust=672172198"/>
     <title><Ally-Web-2-Reskin></title>
   </head>
 
+
+  <!--Header-->
   <body>
-    <img src="img/logo/booklogo.png" alt="logo" width="125" height="125">
-     <h1>The Last Chapter</h1>
-     <img src="img/hero/bookstore.jpg" alt="bookstore" width="600" height="450">
-     <form>
-       <label>Search our Inventory</label>
-      <input type="text">
-     </form>
-        <h2>Our Best-Selling Books of 2022</h2>
-        <strong>Location:</strong><p>Philadelphia, PA, USA</p>
-        <strong>Price:</strong><p>Books Starting at $5.99</p>
-          <h3>Need Some Recommendations?</h3>
-          <img src="img/circle image/closedbooks.jpg" alt="Recommendations" width="125" height="75">
-          <input type="submit" value="Start here"></input>
-          <h3>Ready to Read?</h3>
-          <img src="img/circle image/openbook.jpg" alt="read" width="125" height="150">
-            <input type="submit" value="Order here"></input>
-              <img src="img/hero/library.jpg" alt="library" width="300" height="400">
-              <img src="img/hero/whitebooks.jpg" alt="more books" width="300" height="400">
-           <h2>The Story of The Last Chapter</h2>
-            <img src="img/cards/personreading.jpg" alt="person reading" width="300" height="200">
-              <p>Learn about The Last Chapter's story, our founder, Lisa Arkan, and how we came to be where we are now.</p>
-              <input type="submit" value="Read More"></input>
-            <h2>10 Books Everyone Should Read</h2>
-            <img src="img/cards/books.jpg" alt="books" width="300" height="200">
-              <p>From classics to contemperary, if you haven't read these books, you are missing out.</p>
-              <input type="submit" value="Read More"></input>
-            <h2>Our Team's Top Picks</h2>
-            <img src="img/cards/aestheticbooks.jpg" alt="desk" width="300" height="200">
-             <p>Hear some of our staff's favorite books from our shop!</p>
-             <input type="submit" value="Read More"></input>
-            <h2>Spring Sale- 25% Off</h2>
-            <img src="img/cards/bluebooks.jpg" alt="books stacked" width="300" height="200">
-             <p>Pick up these great books for a quarter of the price! Sale ends May 13th.</p>
-             <input type="submit" value="Read More"></input>
-            <h2>Black Lives Matter</h2>
-            <img src="img/cards/blacklivesmatter.jpg" alt="black artists books" width="300" height="200">
-              <p>Check out these picks that include our favorite black authors and stories about antiracism.</p>
-              <input type="submit" value="Read More"></input>
+    <header class="container">
+      <div class="content">
+        <div>
+          <img src="img/logo/booklogo.png" alt="logo" width="100" height="100">
+          <h1>The Last Chapter </h1>
+        </div>
+      </div>
+<!--Hero-->
+  <section class= "hero">
+      <img src="img/hero/bookstore.jpg" alt="bookstore" width="400" height="300">
+   </section>
+
+ <!--Search Bar-->
+       <div class="search container">
+        <div class="content">
+          <form>
+            <label>Search our Library</label>
+            <input type="text">
+            <img src="img/icons/search.svg" alt="search" width="50" height="50"
+          </form>
+        </div>
+       </div>
+    </header>
+  </body>
+
+
+      <section class="container">
+        <div class="content">
+          <h2>Our Best-Selling Books of 2022</h2>
+          <strong>Location:</strong><p>Philadelphia, PA, USA</p>
+          <strong>Price:</strong><p>Books Starting at $5.99</p>
+        </div>
+      </section>
+
+          <section class="container">
+            <div class="content">
+            <h3>Need Some Recommendations?</h3>
+              <img src="img/circle image/closedbooks.jpg" alt="Recommendations" width="125" height="75">
+             <input type="submit" value="Start here"></input>
+            <h3>Ready to Read?</h3>
+              <img src="img/circle image/openbook.jpg" alt="read" width="100" height="75">
+              <input type="submit" value="Order here"></input>
+            </div>
+          </section>
+            
+
+<!--Gallery-->
+              <section class="gallery">
+                <ul>
+                  <li><img src="img/hero/library.jpg" alt="library" width="400" height="500"></li>
+                 <li> <img src="img/hero/whitebooks.jpg" alt="more books" width="400" height="500"></li>
+                </ul>
+              </section>
+        
+
+<!--What's New-->
+       <section class="whats-new">
+        <div class="container">
+          <div class="content">
+            <h2>What's New</h2>
+          </div>
+        </div>
+        
+          <div class="artcile-grid">
+            <article>
+                <img src="img/cards/personreading.jpg" alt="person reading" width="400" height="300">
+              <div class="container">
+                <div class="content">
+                  <h2>The Story of The Last Chapter</h2>
+                  <p>Learn about The Last Chapter's story, our founder, Lisa Arkan, and how we came to be where we are now.</p>
+                  <input type="submit" value="Read More"></input>
+                </div>
+              </div>
+             </article>
+            </div>
+
+            <article>
+                <img src="img/cards/books.jpg" alt="books" width="400" height="300">
+                <div class="container">
+                  <div class="content">
+                <h2>10 Books Everyone Should Read</h2>
+                <p>From classics to contemperary, if you haven't read these books, you are missing out.</p>
+                <input type="submit" value="Read More"></input>
+              </div>
+            </div>
+           </article>
+
+
+           <article>
+            <img src="img/cards/aestheticbooks.jpg" alt="desk" width="400" height="300">
+              <div class="container">
+                <div class="content">
+                  <h2>Our Team's Top Picks</h2>
+                  <p>Hear some of our staff's favorite books from our shop!</p>
+                  <input type="submit" value="Read More"></input>
+                </div>
+              </div>
+           </article>
+
+
+           <article>
+              <img src="img/cards/bluebooks.jpg" alt="books stacked" width="400" height="300">
+              <div class="container">
+                <div class="content">
+                  <h2>Spring Sale- 25% Off</h2>
+                  <p>Pick up these great books for a quarter of the price! Sale ends May 13th.</p>
+                  <input type="submit" value="Read More"></input>
+                </div>
+              </div>
+           </article>
+
+           <article>
+            <img src="img/cards/blacklivesmatter.jpg" alt="black artists books" width="400" height="300">
+            <div class="container">
+              <div class="content">
+                <h2>Black Lives Matter</h2>
+                <p>Check out these picks that include our favorite black authors and stories about antiracism.</p>
+                <input type="submit" value="Read More"></input>
+              </div>
+            </div>
+         </article>
+
+<!--Footer-->
+          <footer>
+            <div class="conatiner">
+              <div class="content"></div>
                 <h3>Locations</h3> 
-                  <h4>Connecticut</h4>
-                      <li>20 Tolland Turnpike</li>
-                      <li>Manchester, CT 06042-1763</li>
-                      <li>(800) 829-4161</li>
-                  <h4>Massachusetts</h4>
-                    <li>136 Eastman Street South</li>
-                    <li>Easton, MA 02375</li>
-                    <li>(877) 526-9213</li>
+                <ul>
+                  <li>
+                   <h4>Connecticut</h4>
+                    <img src="img/icons/arrow.png" alt="arrow" width="20" height="20">
+                      <p>20 Tolland Turnpike</p>
+                      <p>Manchester, CT 06042-1763</p>
+                   <img src="img/icons/phone.png" alt="phone" width="20" height="30">
+                      <p>(800) 829-4161</p>
+                    </li>
+                  <li>
+                    <h4>Massachusetts</h4>
+                     <img src="img/icons/arrow.png" alt="arrow" width="20" height="20">
+                      <p>136 Eastman Street South</p>
+                      <p>Easton, MA 02375</p>
+                      <img src="img/icons/phone.png" alt="phone" width="20" height="30">
+                      <p>(877) 526-9213</p>
+                  </li>
+
+                <li>
                   <h4>Nova Scotia</h4>
-                    <li>318 Park Road</li>
-                    <li>Elmsdale, NS B2S )G25</li>
-                    <li>(902) 883-7450</li>
+                  <img src="img/icons/arrow.png" alt="arrow" width="20" height="20">
+                    <p>318 Park Road</p>
+                    <p>Elmsdale, NS B2S )G25</p>
+                   <img src="img/icons/phone.png" alt="phone" width="20" height="30">
+                    <p>(902) 883-7450</p>
+                </li>
+                
+              <div>
                  <h3>Newsletter Sign Up</h3>
-                 <form>
-                  <label>Email Address</label>
-                  <input>
+                 <form action="#">
+                  <input type="text" placeholder="Email Address">
                  </form>
-                  <input type="submit" value="Submit"></input>
-                  <h3>Follow us</h3>
+                <button>Sign Up</button>
+              </div>
+                  
+              <div>
+                 <h3>Follow us</h3>
+                 <ul>
+                    <li><img src="img/icons/facebook.svg" alt="facbook" width="50" height="50"></li>
+                    <li><img src="img/icons/instagram.svg" alt="instagram" width="50" height="50"></li>
+                    <li><img src="img/icons/youtube.svg" alt="youtube" width="50" height="50"></li>
+                   <li> <img src="img/icons/twitter.svg" alt="twitter" width="50" height="50"></li>
+                </ul>
+              </div>
 
 
-    <script src="js/scripts-min.js?ckcachebust=671488051"></script>
+
+    <script src="js/scripts-min.js?ckcachebust=672172198"></script>
   </body>
 </html>

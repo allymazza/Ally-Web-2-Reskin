@@ -352,6 +352,15 @@ template {
 /* =============
     Base
 ============= */
+.container {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". content .";
+}
+.container .content {
+  grid-area: content;
+}
+
 /* =============
     Typography
 ============= */
@@ -385,3 +394,36 @@ textarea {
 /* =============
     Footer
 ============= */
+.hero img {
+  width: 100%;
+}
+.hero .content {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+/* =============
+    Search
+============= */
+/* =============
+    Base
+============= */
+.gallery ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.gallery ul li img {
+  width: 100%;
+}
+
+/* =============
+    Base
+============= */
+.whats-new .article-grid {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 15px;
+}
+.whats-new .article-grid article img {
+  width: 100%;
+}
