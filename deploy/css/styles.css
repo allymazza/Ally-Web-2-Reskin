@@ -399,6 +399,18 @@ textarea {
 /* =============
     Footer
 ============= */
+footer .content {
+  display: grid;
+  grid-template-columns: 100%;
+}
+@media (min-width: 768px) {
+  footer .content {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "locations newsletter" "locations social";
+  }
+}
+
 .hero img {
   width: 100%;
 }
@@ -451,6 +463,20 @@ textarea {
   display: grid;
   grid-template-columns: 100%;
   gap: 15px;
+}
+@media (min-width: 768px) {
+  .whats-new .article-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-area: articles;
+    grid-template-areas: "a1 a1 a2 a2" "a3 a3 a4 a4" ". a5 a5 .";
+  }
+}
+@media (min-width: 992px) {
+  .whats-new .article-grid {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "a1 a1 a2 a2 a3 a3" ". a4 a4 a5 a5 .";
+  }
 }
 .whats-new .article-grid article img {
   width: 100%;
