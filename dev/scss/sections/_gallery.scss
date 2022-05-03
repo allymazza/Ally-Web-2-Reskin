@@ -18,8 +18,27 @@
                 width: 100%;
             }
 
+            &.img-1{
+                @include xl{
+                    grid-area: g1;
+                }
+            }
+            &.img-2{
+                @include xl{
+                    grid-area: g2;
 
-    
+                }
+            }
+
+                &.img-3{
+                    display: none;
+
+                    @include xl{
+                        display: block;
+                        grid-area: g3;
+                    }
+                }
+
         }
     }
 }
