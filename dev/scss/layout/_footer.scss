@@ -2,7 +2,7 @@
     Footer
 ============= */
 footer{
-
+    background-color: $beige;
     .content{
         display: grid;
         grid-template-columns: 100%;
@@ -14,9 +14,24 @@ footer{
             "locations newsletter"
             "locations social";
         }
-
+        @include lg{
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: 
+            "locations newsletter social";
+        }
     }
+        h3{
+            font-size: 20px;
+            font-weight: 400 ;
+        }
 
+        .locations{
+            ul{
+                list-style: none;
+                padding: 0;
+                
+            }
+        }
 }
 
     

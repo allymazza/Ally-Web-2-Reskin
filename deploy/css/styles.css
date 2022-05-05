@@ -418,9 +418,28 @@ textarea {
 /* =============
     Header
 ============= */
+h1 {
+  display: none;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  h1 {
+    display: block;
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
 /* =============
     Footer
 ============= */
+footer {
+  background-color: #f0e9df;
+}
 footer .content {
   display: grid;
   grid-template-columns: 100%;
@@ -431,6 +450,20 @@ footer .content {
     grid-template-columns: 50% auto;
     grid-template-areas: "locations newsletter" "locations social";
   }
+}
+@media (min-width: 992px) {
+  footer .content {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "locations newsletter social";
+  }
+}
+footer h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+footer .locations ul {
+  list-style: none;
+  padding: 0;
 }
 
 .hero img {
@@ -528,7 +561,7 @@ footer .content {
 }
 
 /* =============
-    Search
+    Divider
 ============= */
 .content {
   display: grid;
@@ -539,5 +572,22 @@ footer .content {
 @media (min-width: 768px) {
   .content {
     grid-template-columns: 50% auto;
+  }
+}
+
+.sub-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "h2 image" "button image";
+  background-color: #9dcaff;
+}
+.sub-content h2 {
+  grid-area: h2;
+  font-weight: 400;
+  font-size: 22px;
+}
+@media (min-width: 768px) {
+  .sub-content h2 {
+    font-size: 28px;
   }
 }

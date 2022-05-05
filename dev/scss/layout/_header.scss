@@ -1,3 +1,15 @@
 /* =============
     Header
 ============= */
+h1{
+    display: none;
+    font-weight: 400;
+
+    @include md{
+        display:block;
+        font-size: 24px;
+    }
+    @include lg{
+        font-size: 36px;
+    }
+}
