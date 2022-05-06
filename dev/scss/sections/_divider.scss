@@ -29,6 +29,11 @@
 
         @include md{
             font-size: 28px;
+
+            button{
+                background-color: #9dcaff;
+                font-size: 14px;
+            }
         }
     }
 }
