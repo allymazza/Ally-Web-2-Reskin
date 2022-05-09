@@ -452,33 +452,35 @@ header h1 {
 /* =============
     Footer
 ============= */
-footer {
+.footer {
   background-color: #f0e9df;
 }
-footer .content {
+.footer .content {
   display: grid;
   grid-template-columns: 100%;
 }
+.footer .content ul {
+  list-style: none;
+  padding: 0;
+  list-style: outside none none;
+}
 @media (min-width: 768px) {
-  footer .content {
+  .footer {
     display: grid;
     grid-template-columns: 50% auto;
     grid-template-areas: "locations newsletter" "locations social";
   }
 }
 @media (min-width: 992px) {
-  footer .content {
+  .footer {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "locations newsletter social";
   }
 }
-footer h3 {
+
+h3 {
   font-size: 20px;
   font-weight: 400;
-}
-footer .locations ul {
-  list-style: none;
-  padding: 0;
 }
 
 .hero img {
@@ -488,18 +490,22 @@ footer .locations ul {
   display: grid;
   grid-template-columns: 100%;
 }
-@media (min-width: 768px) {
-  .hero .hero-content {
-    grid-template-columns: 50% auto;
-  }
-}
 
 /* =============
     Search
 ============= */
+.search .content {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 15px;
+}
+
 /* =============
     Base
 ============= */
+.gallery img {
+  width: 100%;
+}
 .gallery ul {
   list-style: none;
   padding-inline-start: 0;
@@ -571,41 +577,63 @@ footer .locations ul {
   background-color: #9dcaff;
   font-size: 14px;
 }
-.whats-new .article-grid article img {
-  width: 100%;
+@media (min-width: 768px) {
+  .whats-new .article-grid.article-1 {
+    grid-area: a1;
+  }
+}
+@media (min-width: 768px) {
+  .whats-new .article-grid.article-2 {
+    grid-area: a2;
+  }
+}
+@media (min-width: 768px) {
+  .whats-new .article-grid.article-3 {
+    grid-area: a3;
+  }
+}
+@media (min-width: 768px) {
+  .whats-new .article-grid.article-4 {
+    grid-area: a4;
+  }
+}
+@media (min-width: 768px) {
+  .whats-new .article-grid.article-5 {
+    grid-area: a5;
+  }
 }
 
 /* =============
     Divider
 ============= */
-.content {
-  display: grid;
-  grid-template-columns: 100%;
-  gap: 15px;
+.divider {
+  background-color: #7ea2cc;
+}
+.divider .content {
   grid-template-columns: 50% auto;
 }
 @media (min-width: 768px) {
-  .content {
+  .divider .content {
     grid-template-columns: 50% auto;
   }
 }
-
-.sub-content {
+.divider .sub-content {
+  background-color: #9dcaff;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-areas: "h2 image" "button image";
   background-color: #9dcaff;
 }
-.sub-content h2 {
+.divider .sub-content h2 {
   grid-area: h2;
   font-weight: 400;
   font-size: 22px;
 }
 @media (min-width: 768px) {
-  .sub-content h2 {
+  .divider .sub-content h2 {
     font-size: 28px;
   }
-  .sub-content h2 button {
+  .divider .sub-content h2 button {
     background-color: #9dcaff;
     font-size: 14px;
   }
