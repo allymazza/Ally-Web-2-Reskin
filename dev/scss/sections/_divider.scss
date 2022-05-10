@@ -2,29 +2,30 @@
     Divider
 ============= */
 
-.divider{
-    background-color: $darkblue;
-    .content{
-    
-    @include md {
-        grid-template-columns: 50% auto;
+.divider{ background-color: $darkblue;
+    .container{
+        .content{
+       display: grid;
+       grid-template-columns: 50% 50%;
     }
- grid-template-columns: 50% auto;
 }
 
-    .sub-content{
-    background-color: $blue;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: 
-    "h2 image"
-    "button image";
-    background-color: $blue;
 
+   .sub-content-left{
+       background-color: $darkblue;
+       display:grid;
+       grid-template-rows: 50% 50%;
+       grid-template-columns: 50% 50%;
+       width: 512px;
+       height: 72px;
+       margin-left: 18px;
+       @include xl {
+           grid-template-columns: auto auto 16px;
+       }
+   }
     h2{
-        grid-area: h2;
         font-weight: 400;
-        font-size: 22px;
+        font-size: 18px;
 
         @include md{
             font-size: 28px;
@@ -35,5 +36,19 @@
                 }
             }
         }
+    .container{
+        .sub-content-right{
+            background-color: $blue;
+            display: grid;
+             grid-template-rows: 33% 33% 33%;
+             grid-template-columns: 50% 50%;
+    
+             width: 512px;
+             height: 72px;
+            @include xl{
+            grid-template-columns: 16px auto auto;
+              }
+        }
     }
-}   
+    } 
+

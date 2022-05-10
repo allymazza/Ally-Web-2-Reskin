@@ -7,7 +7,7 @@
       "uuidString" : "293962A0-20DC-4D4B-AF9E-13B5C3326E2D"
     }
   ],
-  "creatorBuild" : "34359",
+  "creatorBuild" : "34365",
   "files" : {
     "\/assets\/chonk.png" : {
       "ft" : 32768,
@@ -99,28 +99,28 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/circle_image\/closedbooks.jpg" : {
-      "ft" : 16384,
-      "iS" : 82060,
-      "jF" : 0,
+    "\/deploy\/img\/circle_image\/closedbook.png" : {
+      "ft" : 32768,
+      "iS" : 14173,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/circle_image\/closedbooks.jpg",
+      "oAP" : "\/deploy\/img\/circle_image\/closedbook.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/circle_image\/openbook.jpg" : {
-      "ft" : 16384,
-      "iS" : 72274,
-      "jF" : 0,
+    "\/deploy\/img\/circle_image\/openbook.png" : {
+      "ft" : 32768,
+      "iS" : 12486,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/circle_image\/openbook.jpg",
+      "oAP" : "\/deploy\/img\/circle_image\/openbook.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -718,6 +718,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_recommendations.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_recommendations.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/_search.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -791,7 +806,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 670365424.92247903,
-    "displayValue" : "template",
+    "displayValue" : "Reskin",
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-tar",
     "iconImageWasSetByUser" : 0

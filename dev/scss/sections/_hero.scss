@@ -1,11 +1,12 @@
 .hero{
+    .content{
 
-    img{
-        width: 100%;
+        img{
+            display: block;
+            width: 100%;
+        }
     }
 
-    .hero-content{
-        display: grid;
-        grid-template-columns: 100%;
-    }
+
+   
 }
