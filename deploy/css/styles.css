@@ -429,22 +429,22 @@ textarea {
 }
 .header .container .content {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 100%;
 }
 .header .container .content .site-logo {
   width: auto;
 }
-.header h1 {
+.header .container h1 {
   font-weight: 400;
 }
 @media (min-width: 768px) {
-  .header h1 {
+  .header .container h1 {
     display: block;
     font-size: 24px;
   }
 }
 @media (min-width: 992px) {
-  .header h1 {
+  .header .container h1 {
     font-size: 36px;
   }
 }
@@ -455,50 +455,51 @@ textarea {
 .footer {
   background-color: #f0e9df;
 }
-.footer .content {
+.footer .container .content {
   display: grid;
   grid-template-columns: 33% 33% 33%;
+  list-style: none;
+  padding: 0;
+  display: inline-block;
 }
 @media (min-width: 768px) {
-  .footer {
+  .footer .container {
     display: grid;
     grid-template-areas: "locations newsletter" "locations social";
   }
 }
 @media (min-width: 992px) {
-  .footer {
+  .footer .container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "locations newsletter social";
   }
 }
-
-h3 {
+.footer h3 {
   font-size: 20px;
   font-weight: 400;
 }
 @media (min-width: 768px) {
-  h3.locations {
+  .footer h3.locations {
     grid-area: locations;
   }
 }
 @media (min-width: 768px) {
-  h3.newsletter {
+  .footer h3.newsletter {
     grid-area: newsletter;
   }
 }
 @media (min-width: 768px) {
-  h3.social {
+  .footer h3.social {
     grid-area: social;
   }
 }
-h3 .locations ul, h3 .follow ul {
+.footer h3 .locations ul, .footer h3 .follow ul {
   list-style: none;
   padding: 0;
   display: inline-block;
 }
 
-.hero .content img {
-  display: block;
+.hero .container .content img {
   width: 100%;
 }
 
@@ -527,37 +528,42 @@ h3 .locations ul, h3 .follow ul {
 /* =============
     Base
 ============= */
-.gallery img {
+.gallery .content {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+}
+.gallery .content img {
   width: 100%;
 }
-.gallery ul {
+.gallery .content .ul {
   list-style: none;
   padding-inline-start: 0;
 }
 @media (min-width: 768px) {
-  .gallery ul {
+  .gallery .content .ul {
     display: grid;
     grid-template-columns: 50% auto;
   }
 }
-.gallery ul li img {
+.gallery .content .ul li img {
   width: 100%;
 }
 @media (min-width: 1200px) {
-  .gallery ul li.img-1 {
+  .gallery .content .ul li.img-1 {
     grid-area: g1;
   }
 }
 @media (min-width: 1200px) {
-  .gallery ul li.img-2 {
+  .gallery .content .ul li.img-2 {
     grid-area: g2;
   }
 }
-.gallery ul li.img-3 {
+.gallery .content .ul li.img-3 {
   display: none;
 }
 @media (min-width: 1200px) {
-  .gallery ul li.img-3 {
+  .gallery .content .ul li.img-3 {
     display: block;
     grid-area: g3;
   }
@@ -566,7 +572,7 @@ h3 .locations ul, h3 .follow ul {
 /* =============
     Base
 ============= */
-.whats-new .whats-new-title h2 {
+.whats-new .whats-new-title .content h2 {
   font-weight: 400;
   font-size: 20px;
 }
@@ -602,6 +608,10 @@ h3 .locations ul, h3 .follow ul {
   .whats-new .whats-new-article .article-grid {
     grid-template-columns: auto 1140px auto;
   }
+}
+.whats-new .whats-new-article .a1, .whats-new .whats-new-article .a2, .whats-new .whats-new-article .a3, .whats-new .whats-new-article .a4, .whats-new .whats-new-article .a5 {
+  width: 320px;
+  height: 400px;
 }
 .whats-new .whats-new-article button {
   background-color: #9dcaff;

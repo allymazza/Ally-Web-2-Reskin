@@ -9,14 +9,14 @@
 
         .content{
             display: grid;
-            grid-template-columns: 50% 50%;
+            grid-template-columns: 100%;
 
          .site-logo{
             width: auto;
                
         }
     }
-    }
+   
     h1{
     
     font-weight: 400;
@@ -29,4 +29,5 @@
         font-size: 36px; 
         }
     }
+}
 }

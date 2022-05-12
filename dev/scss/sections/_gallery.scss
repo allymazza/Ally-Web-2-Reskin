@@ -3,10 +3,14 @@
 ============= */
 
 .gallery{
+    .content{
+        list-style: none;
+                    padding: 0;
+                    display: inline-block;
     img{
         width: 100%;
     }
-    ul{
+    .ul{
         list-style: none;
         padding-inline-start: 0;
 
@@ -39,7 +43,8 @@
                         display: block;
                         grid-area: g3;
                     }
-                }
+            
+                }    }
 
         }
     }

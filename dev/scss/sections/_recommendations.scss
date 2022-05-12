@@ -6,7 +6,7 @@
     background-color: $beige;
     display: grid;
     grid-template-columns: 100%;
-    gap:15px;
+    gap: 15px;
     .content{
         grid-template-columns: 50% auto;
         column-gap: 30px;
@@ -37,10 +37,10 @@
     }
 }
 
-.content-left{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    }
+    .content-left{
+        display: grid;
+        grid-template-columns: 50% 50%;
+     }
     .content-right{
         display: grid;
         grid-template-columns: 50% 50%;
