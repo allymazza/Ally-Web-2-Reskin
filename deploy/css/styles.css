@@ -423,28 +423,37 @@ textarea {
 /* =============
     Header
 ============= */
-.header {
+header {
   background-color: #f0e9df;
-  text-align: center;
 }
-.header .container .content {
+header .container .content {
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: 50% 50%;
 }
-.header .container .content .site-logo {
-  width: auto;
+header .container .content div {
+  margin: 20px 0 20px 0;
 }
-.header .container h1 {
+header .container .content .site-logo {
+  width: 45px;
+}
+@media (min-width: 992px) {
+  header .container .content .site-logo {
+    width: 65px;
+  }
+}
+header .container h1 {
+  display: none;
+  color: black;
   font-weight: 400;
 }
 @media (min-width: 768px) {
-  .header .container h1 {
-    display: block;
+  header .container h1 {
+    display: inline-block;
     font-size: 24px;
   }
 }
 @media (min-width: 992px) {
-  .header .container h1 {
+  header .container h1 {
     font-size: 36px;
   }
 }
@@ -501,38 +510,43 @@ textarea {
 
 .hero .container .content img {
   width: 100%;
+  display: block;
 }
 
 /* =============
     Search
 ============= */
 .search {
-  text-align: center;
-  margin: 15px 0 15px 0;
-}
-.search .content {
-  display: flex;
+  margin: 50px 0 50px 0;
 }
 .search .content form {
   display: flex;
-  padding: 20px;
-  margin: auto;
 }
 .search .content form input {
-  border: none;
   width: 100%;
+  color: #9dcaff;
   margin-right: 20px;
-  border-bottom: 1px solid black;
+  border-bottom: 3px solid #9dcaff;
+}
+@media (min-width: 768px) {
+  .search .content form input {
+    font-size: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .search .content form input {
+    font-size: 36px;
+  }
+}
+.search .content form input button {
+  background-color: #9dcaff;
+  border: none;
+  margin-left: 30px;
 }
 
 /* =============
     Base
 ============= */
-.gallery .content {
-  list-style: none;
-  padding: 0;
-  display: inline-block;
-}
 .gallery .content img {
   width: 100%;
 }
@@ -646,21 +660,25 @@ textarea {
 /* =============
     Divider
 ============= */
-.divider {
-  background-color: #7ea2cc;
-}
 .divider .container .content {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 100%;
+}
+@media (min-width: 768px) {
+  .divider .container .content {
+    grid-template-columns: 50% auto;
+  }
 }
 .divider .sub-content-left {
   background-color: #7ea2cc;
   display: grid;
-  grid-template-rows: 50% 50%;
   grid-template-columns: 50% 50%;
-  width: 512px;
+  width: 500px;
   height: 72px;
-  margin-left: 18px;
+  padding: 20px;
+}
+.divider .sub-content-left p {
+  margin-bottom: 10px;
 }
 @media (min-width: 1200px) {
   .divider .sub-content-left {
@@ -668,44 +686,44 @@ textarea {
   }
 }
 .divider h2 {
-  font-weight: 400;
   font-size: 18px;
+  margin-bottom: 10px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .divider h2 {
-    font-size: 28px;
-  }
-  .divider h2 button {
-    background-color: #9dcaff;
-    font-size: 14px;
+    font-size: 24px;
   }
 }
-.divider .container .sub-content-right {
+.divider .sub-content-right {
   background-color: #9dcaff;
   display: grid;
-  grid-template-rows: 33% 33% 33%;
   grid-template-columns: 50% 50%;
-  width: 512px;
+  width: 500px;
   height: 72px;
+  padding: 20px;
+}
+.divider .sub-content-right p {
+  margin-bottom: 10px;
 }
 @media (min-width: 1200px) {
-  .divider .container .sub-content-right {
+  .divider .sub-content-right {
     grid-template-columns: 16px auto auto;
   }
 }
+.divider .sub-content-right .arrow {
+  width: 10px;
+}
+.divider .sub-content-right img {
+  display: inline-block;
+}
 
 /* =============
-    Divider
+ Recommendations
 ============= */
-.recommendations {
-  background-color: #f0e9df;
+.recommendations .content {
   display: grid;
   grid-template-columns: 100%;
   gap: 15px;
-}
-.recommendations .content {
-  grid-template-columns: 50% auto;
-  column-gap: 30px;
   width: auto;
   height: 145px;
   margin: auto;
@@ -714,14 +732,12 @@ textarea {
   .recommendations .content {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 100%;
   }
 }
 @media (min-width: 768px) {
   .recommendations .content {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100%;
+    grid-template-columns: 50% auto;
   }
 }
 @media (min-width: 992px) {
@@ -739,8 +755,43 @@ textarea {
 .recommendations .content-left {
   display: grid;
   grid-template-columns: 50% 50%;
+  grid-template-areas: "h2 image" "button image";
+  background-color: #f0e9df;
+  padding: 20px;
 }
 .recommendations .content-right {
   display: grid;
   grid-template-columns: 50% 50%;
+  grid-template-areas: "h2 image" "button image";
+  background-color: #f0e9df;
+}
+.recommendations h2 {
+  grid-area: h2;
+  font-weight: 400;
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  .recommendations h2 {
+    font-size: 28px;
+  }
+  .recommendations h2 button {
+    background-color: #9dcaff;
+    font-size: 14px;
+  }
+}
+.recommendations a {
+  grid-area: button;
+}
+.recommendations img {
+  grid-area: image;
+}
+.recommendations a, .recommendations button {
+  color: #fff;
+  background-color: #9dcaff;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+}
+.recommendations button {
+  height: 50px;
 }

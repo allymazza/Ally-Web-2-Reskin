@@ -1,15 +1,12 @@
 /* =============
-    Divider
+ Recommendations
 ============= */
 
 .recommendations{ 
-    background-color: $beige;
-    display: grid;
-    grid-template-columns: 100%;
-    gap: 15px;
     .content{
-        grid-template-columns: 50% auto;
-        column-gap: 30px;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 15px;
         width: auto;
         height: 145px;
         margin:auto;
@@ -17,13 +14,11 @@
     @include sm{
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 100%;
     }
 
     @include md{
         display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 100%;
+        grid-template-columns: 50% auto;
     }
 
     @include lg{
@@ -36,14 +31,57 @@
         grid-template-rows: auto;
     }
 }
-
     .content-left{
         display: grid;
         grid-template-columns: 50% 50%;
-     }
+        grid-template-areas: 
+        "h2 image"
+        "button image"
+        ;
+        background-color: $beige ;
+        padding: 20px;
+    }
     .content-right{
         display: grid;
         grid-template-columns: 50% 50%;
+        grid-template-areas: 
+        "h2 image"
+        "button image"
+        ;
+        background-color: $beige ;
+        
         }
+h2{
+    grid-area: h2;
+    font-weight: 400;
+    font-size: 18px;
+
+    @include md{
+        font-size: 28px;
+
+        button{
+            background-color: #9dcaff;
+            font-size: 14px;
+            }
+        }
+    }
+    a{
+        grid-area: button;
+    }
+    img{
+        grid-area: image;
+    }
+
+    a, button{
+        color: $white;
+        background-color: $blue;
+        padding: 10px;
+        width: 150px;
+        text-align: center;
+    }
+    button{
+        height: 50px;
+    }
+
 }
  

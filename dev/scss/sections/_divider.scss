@@ -2,53 +2,64 @@
     Divider
 ============= */
 
-.divider{ background-color: $darkblue;
+.divider{ 
     .container{
         .content{
        display: grid;
-       grid-template-columns: 50% 50%;
+       grid-template-columns: 100%;
+
+       @include md{
+           grid-template-columns: 50% auto;
+       }
     }
 }
-
 
    .sub-content-left{
        background-color: $darkblue;
        display:grid;
-       grid-template-rows: 50% 50%;
        grid-template-columns: 50% 50%;
-       width: 512px;
+       width: 500px;
        height: 72px;
-       margin-left: 18px;
+       padding: 20px;
+       p{
+        margin-bottom: 10px;
+    }
+    
        @include xl {
            grid-template-columns: auto auto 16px;
        }
    }
-    h2{
-        font-weight: 400;
-        font-size: 18px;
+   
+   h2{
+       font-size: 18px;
+       margin-bottom: 10px;
 
-        @include md{
-            font-size: 28px;
-
-            button{
-                background-color: #9dcaff;
-                font-size: 14px;
-                }
-            }
-        }
-    .container{
-        .sub-content-right{
+       @include lg{
+           font-size: 24px;
+       }
+   }
+     .sub-content-right{
             background-color: $blue;
             display: grid;
-             grid-template-rows: 33% 33% 33%;
-             grid-template-columns: 50% 50%;
-    
-             width: 512px;
-             height: 72px;
-            @include xl{
+            grid-template-columns: 50% 50%;
+            width: 500px;
+            height: 72px;
+            padding: 20px;
+            p{
+                margin-bottom: 10px;
+            }
+
+         @include xl{
             grid-template-columns: 16px auto auto;
               }
+
+              .arrow{
+                  width:10px
+              }
+              img{
+                display: inline-block;
+            }
         }
     }
-    } 
+     
 

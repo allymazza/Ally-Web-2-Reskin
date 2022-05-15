@@ -3,24 +3,30 @@
 ============= */
 
 .search{
-        text-align: center;
-        margin: 15px 0 15px 0;
+        margin: 50px 0 50px 0;
     .content{
-        display: flex;
-
 
         form{
            display:flex;
-           padding:20px;
-           margin: auto;
 
            input{
-               border: none;
                width:100%;
+               color: $blue;
                margin-right: 20px;
-               border-bottom: 1px solid black;
-           
-    }
- }   
-}
+               border-bottom: 3px solid $blue;
+
+            @include md{
+                font-size: 30px;
+            }
+            @include lg{
+                font-size: 36px;
+            }   
+            button{
+                background-color: $blue;
+                border: none;
+                margin-left: 30px;
+            }
+            }
+        }   
+    }      
 }   
