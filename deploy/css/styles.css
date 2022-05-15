@@ -505,7 +505,6 @@ header .container h1 {
 .footer h3 .locations ul, .footer h3 .follow ul {
   list-style: none;
   padding: 0;
-  display: inline-block;
 }
 
 .hero .container .content img {
@@ -550,34 +549,34 @@ header .container h1 {
 .gallery .content img {
   width: 100%;
 }
-.gallery .content .ul {
+.gallery .content ul {
   list-style: none;
   padding-inline-start: 0;
 }
 @media (min-width: 768px) {
-  .gallery .content .ul {
+  .gallery .content ul {
     display: grid;
     grid-template-columns: 50% auto;
   }
 }
-.gallery .content .ul li img {
+.gallery .content ul li img {
   width: 100%;
 }
 @media (min-width: 1200px) {
-  .gallery .content .ul li.img-1 {
+  .gallery .content ul li.img-1 {
     grid-area: g1;
   }
 }
 @media (min-width: 1200px) {
-  .gallery .content .ul li.img-2 {
+  .gallery .content ul li.img-2 {
     grid-area: g2;
   }
 }
-.gallery .content .ul li.img-3 {
+.gallery .content ul li.img-3 {
   display: none;
 }
 @media (min-width: 1200px) {
-  .gallery .content .ul li.img-3 {
+  .gallery .content ul li.img-3 {
     display: block;
     grid-area: g3;
   }
@@ -586,9 +585,23 @@ header .container h1 {
 /* =============
     Base
 ============= */
+.whats-new {
+  margin-bottom: 100px;
+}
 .whats-new .whats-new-title .content h2 {
   font-weight: 400;
   font-size: 20px;
+  color: gray;
+}
+@media (min-width: 992px) {
+  .whats-new .whats-new-title .content h2 {
+    font-size: 32px;
+  }
+}
+@media (min-width: 1200px) {
+  .whats-new .whats-new-title .content h2 {
+    font-size: 40px;
+  }
 }
 .whats-new .whats-new-article .article-grid {
   display: grid;
@@ -622,6 +635,21 @@ header .container h1 {
   .whats-new .whats-new-article .article-grid {
     grid-template-columns: auto 1140px auto;
   }
+}
+.whats-new .whats-new-article img {
+  width: 100%;
+  display: block;
+}
+.whats-new .whats-new-article .container {
+  padding: 15px 0 15px 0;
+}
+.whats-new .whats-new-article h3 {
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.whats-new .whats-new-article p {
+  margin-bottom: 10px;
 }
 .whats-new .whats-new-article .a1, .whats-new .whats-new-article .a2, .whats-new .whats-new-article .a3, .whats-new .whats-new-article .a4, .whats-new .whats-new-article .a5 {
   width: 320px;
