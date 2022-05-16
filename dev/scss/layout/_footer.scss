@@ -4,18 +4,16 @@
 .footer{
     background-color: $beige;
     .container{
-    .content{
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-        list-style: none;
-        padding: 0;
-        display: inline-block;
-
-
-        }
+        .content{
+            display: grid;
+            grid-template-columns: 100%;
+            list-style: none;
+            padding: 0;
+            display: inline-block;
 
         @include md{
             display: grid;
+            grid-template-columns: 50% auto;
             grid-template-areas:
             "locations newsletter"
             "locations social";
@@ -26,34 +24,33 @@
             "locations newsletter social";
         }
     }
+}
         h3{
             font-size: 20px;
             font-weight: 400 ;
-        
-            &.locations{
-                @include md{
-                    grid-area: locations;
-                }
+         }
+         
+         &.locations{
+            @include md{
+                grid-area: locations;
             }
+        }
 
-            &.newsletter{
-                @include md{
-                    grid-area: newsletter;
-                }
+        &.newsletter{
+            @include md{
+                grid-area: newsletter;
             }
-            &.social{
-                @include md{
-                    grid-area: social;
-                }
+        }
+        &.social{
+            @include md{
+                grid-area: social;
             }
-            .locations, .follow{
-                ul{
-                    list-style: none;
-                    padding: 0;
-                }
-
+        }
+        .locations, .follow{
+            ul{
+                list-style: none;
+                padding: 0;
             }
-            
 
         }
 }

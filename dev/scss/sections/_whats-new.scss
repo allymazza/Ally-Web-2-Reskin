@@ -4,39 +4,36 @@
 
 
 .whats-new{
-
-    margin-bottom: 100px;
+    padding: 20px;
+    margin-bottom: 25px;
 
     .whats-new-title{
         .content{
-        h2{
-            font-weight: 400;
-            font-size: 20px;
-            color: gray;
+            h2{
+                font-weight: 400;
+                font-size: 20px;
+                color: gray;
             
-            @include lg{
+             @include lg{
                 font-size: 32px;
             }
 
             @include xl{
                 font-size: 40px;
-            }
+             }
         }
     }
 }
 
-.whats-new-article{
+.whats-new-articles{
     .article-grid{
         display: grid;
         grid-template-columns: 100%;
-        column-gap: 20px;
-        row-gap: 20px;
-        margin: auto;
+        gap: 20px ;
 
         @include md{
             display: grid;
             grid-template-columns: repeat(4,1fr);
-            grid-area: ".articles.";
             grid-template-areas:
             "a1 a1 a2 a2"
             "a3 a3 a4 a4"
@@ -49,45 +46,19 @@
             "a1 a1 a2 a2 a3 a3"
             ". a4 a4 a5 a5 .";
         }
-        @include md{
-            display: grid;
-            grid-template-columns: 15px auto 15px ;
-            grid-template-areas: ". articles .";
-        }
     
-        @include xl{
-            grid-template-columns: auto 1140px auto;
-        }
     }
 
+    article{
         img{
             width: 100%;
             display: block;
         }
-
-        .container{
-            padding: 15px 0 15px 0;
-        
-        }
-        h3{
-            font-weight: 600;
-            font-size: 28px;
-            margin-bottom: 10px;
-        }
-        p{
-            margin-bottom: 10px;
-        }
-
-
-    .a1, .a2, .a3, .a4, .a5 {
-        width: 320px;
-        height: 400px
-    }
-
         button{
             background-color: #9dcaff;
             font-size: 14px;
         }
+
         &.article-1{
             @include md{
                 grid-area: a1;
@@ -113,5 +84,20 @@
                 grid-area: a5;
             }
         }
+    }
+        .container{
+            padding: 15px 0 15px 0;
+        
+        }
+        h3{
+            font-weight: 600;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        p{
+            margin-bottom: 10px;
+        }
+
+
     }
 }

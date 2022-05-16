@@ -16,20 +16,12 @@
   <body>
     <header class="container">
       <div class="content">
-        <div>
-          <img class= "site-logo" src="img/logo/booklogo.png" alt="logo" width="100" height="100">
+        <div class="site-logo">
+          <img src="img/logo/booklogo.png" alt="logo" width="100" height="100">
             <h1>The Last Chapter</h1>
           </div>
         </div>
-      </div>
-<!--Hero-->
-  <section>
-    <div class="container">
-     <div class="content">
-       <img src="img/hero/bookstore.jpg" alt="bookstore" width="400" height="300">
-     </div>
-    </div>
-   </section>
+    </header>
 
  <!--Search Bar-->
        <div class="search container">
@@ -37,65 +29,64 @@
           <form action="#">
             <input type="text" placeholder="Search Our Library">
           </form>
-            <button><img src="img/icons/search.svg" alt="search icon" width="20" height="20">
-</button>
+            <button style="background-color: #9dcaff;"> 
+             <img src="img/icons/search.svg" alt="search" width="20" height="20">
+          </button>
         </div>
        </div>
-    </header>
-  </body>
+
+       <!--Hero-->
+  <section class= "hero">
+    <div class="container">
+     <div class="hero-content">
+       <img src="img/hero/bookstore.jpg" alt="bookstore" width="400" height="300">
+     </div>
+    </div>
+   </section>
 
 <!--Divider-->
     <section class="divider">
-      <section class="container">
-        <div class="sub-content-left">
+      <section class="container container-blue">
+        <div class="sub-content-left content">
           <h2>Our Best-Selling Books of 2022</h2>
-          <a href="#"><span>Details</span><img src="img/icons/black-arrow.png" alt="arrow"></a>
+            <img src="img/icons/black-arrow.png" alt="arrow">
           </div>
         </section>
-      </section>
 
-
-        <section class="divider">
-          <section class="container">
-            <div class="sub-content-right">
+          <section class="container container-dark-blue">
+            <div class="sub-content-right content">
               <strong>Location:</strong><p>Philadelphia, PA, USA</p>
               <strong>Price:</strong><p>Books Starting at $5.99</p>
-              <a href="#"><span>Details</span><img src="img/icons/black-arrow.png" alt="arrow"></a>
-        </div>
-      </section>
-    </section>
+              <img src="img/icons/black-arrow.png" alt="arrow">
+            </div>
+          </section>
+       </section>
 
     <!--Recommendations-->
         <section class="recommendations">
-            <div class="content">
-              <div class="content-left">
+            <div class="content content-left">
             <h3>Need Some Recommendations?</h3>
               <img src="img/circle_image/closedbook.png" alt="Recommendations" width="100" height="75">
-             <input type="submit" value="Start here" style="background-color: #9dcaff;">
+             <button>Start Here</button>
+
+            <div class="content content-right">
+            <h3>Ready to Read?</h3>
+              <img src="img/circle_image/openbook.png" alt="read" width="100" height="75">
+              <button>Start Here</button>
             </div>
           </div>
-        </section>
-            
-         <section class="recommendations">
-            <div class="content">
-             <div class="content-right">
-              <h3>Ready to Read?</h3>
-                <img src="img/circle_image/openbook.png" alt="read" width="100" height="75">
-                <input type="submit" value="Order here" style="background-color: #9dcaff;">
-                </div>
-              </div>
-          </section>
+         </section>
             
 
 <!--Gallery-->
       <section class="gallery">
-            <div class="ul">
-              <ul>
-                <li><img src="img/hero/library.jpg" alt="library" width="400" height="500"></li>
-               <li> <img src="img/hero/whitebooks.jpg" alt="more books" width="400" height="500"></li>
-                </ul>
-              </div>
+        <section class="content">
+          <ul>
+             <li><img src="img/hero/library.jpg" alt="library" width="400" height="500"></li>
+              <li> <img src="img/hero/whitebooks.jpg" alt="more books" width="400" height="500"></li>
+            </ul>
       </section>
+    </section>
         
 
 <!--What's New-->
@@ -109,76 +100,69 @@
         
        <section class="whats-new-articles">
           <div class="article-grid">
-            
             <article class="article-1">
                 <img src="img/cards/personreading.jpg" alt="person reading" width="400" height="300">
               <div class="container">
                 <div class="content">
                   <h2>The Story of The Last Chapter</h2>
                   <p>Learn about The Last Chapter's story, our founder, Lisa Arkan, and how we came to be where we are now.</p>
-                  <input type="submit" value="Read More" style="background-color: #9dcaff;">
+                  <button>Read More</button>
                 </div>
-              </div>
              </article>
             </div>
 
-          <div class="article-grid">
             <article class="article-2">
                 <img src="img/cards/books.jpg" alt="books" width="400" height="300">
                 <div class="container">
                   <div class="content">
                 <h2>10 Books Everyone Should Read</h2>
                 <p>From classics to contemperary, if you haven't read these books, you are missing out.</p>
-                <input type="submit" value="Read More" style="background-color: #9dcaff;">
+                <button>Read More</button>
               </div>
             </div>
-          </div>
-         </article>
+           </article>
 
-         <div class="article-grid">
+
            <article class="article-3">
             <img src="img/cards/aestheticbooks.jpg" alt="desk" width="400" height="300">
               <div class="container">
                 <div class="content">
                   <h2>Our Team's Top Picks</h2>
                   <p>Hear some of our staff's favorite books from our shop!</p>
-                  <input type="submit" value="Read More" style="background-color: #9dcaff;">
+                  <button>Read More</button>
                 </div>
               </div>
-            </div>
            </article>
 
-           <div class="article-grid">
+
            <article class="article-4">
               <img src="img/cards/bluebooks.jpg" alt="books stacked" width="400" height="300">
               <div class="container">
                 <div class="content">
                   <h2>Spring Sale- 25% Off</h2>
                   <p>Pick up these great books for a quarter of the price! Sale ends May 13th.</p>
-                  <input type="submit" value="Read More" style="background-color: #9dcaff;">
+                  <button>Read More</button>
                 </div>
               </div>
-            </div>
            </article>
 
-           <div class="article-grid">
            <article class="article-5">
             <img src="img/cards/blacklivesmatter.jpg" alt="black artists books" width="400" height="300">
             <div class="container">
               <div class="content">
                 <h2>Black Lives Matter</h2>
                 <p>Check out these picks that include our favorite black authors and stories about antiracism.</p>
-                <input type="submit" value="Read More" style="background-color: #9dcaff;">
+                <button>Read More</button>
               </div>
             </div>
-          </div>
          </article>
+        </section>
 
 <!--Footer-->
           <footer class="footer">
             <div class="container">
               <div class="content">
-                <div class="locations"></div>
+                <div class="locations">
                 <h3>Locations</h3> 
                 <ul>
                   <li>
@@ -186,10 +170,12 @@
                     <img src="img/icons/arrow.png" alt="arrow" width="20" height="20">
                       <p>20 Tolland Turnpike</p>
                       <p>Manchester, CT 06042-1763</p>
-                   <img src="img/icons/phone.png" alt="phone" width="20" height="30">
+                    <img src="img/icons/phone.png" alt="phone" width="20" height="30">
                       <p>(800) 829-4161</p>
                     </li>
-                    
+                  </ul>
+
+                <ul>
                   <li>
                     <h4>Massachusetts</h4>
                      <img src="img/icons/arrow.png" alt="arrow" width="20" height="20">
@@ -198,7 +184,9 @@
                       <img src="img/icons/phone.png" alt="phone" width="20" height="30">
                       <p>(877) 526-9213</p>
                   </li>
-                
+                </ul>
+              
+              <ul>
                 <li>
                   <h4>Nova Scotia</h4>
                   <img src="img/icons/arrow.png" alt="arrow" width="20" height="20">
@@ -208,12 +196,8 @@
                     <p>(902) 883-7450</p>
                 </li>
               </ul>
-            </div>
-          </div>
-         </div>
+             </div>
                 
-        <div class="container">
-          <div class="content">
               <div class="newsletter">
                  <h3>Newsletter Sign Up</h3>
                  <form action="#">
@@ -221,11 +205,7 @@
                  </form>
                 <button style="background-color: #9dcaff;"> Sign Up </button>
               </div>
-            </div>
-          </div>
                   
-          <div class="container">
-            <div class="content">
               <div class="socials">
                  <h3>Follow us</h3>
                  <ul>
@@ -235,9 +215,9 @@
                    <li> <img src="img/icons/twitter.svg" alt="twitter" width="50" height="50"></li>
                 </ul>
               </div>
+            </div>
           </div>
-        </div>
-       </footer>
+        </footer>
 
 
 

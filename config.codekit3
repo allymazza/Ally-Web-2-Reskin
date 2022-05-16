@@ -505,12 +505,12 @@
       "rq" : 75
     },
     "\/dev\/index.html" : {
-      "cB" : 1,
+      "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index.html",
-      "oF" : 1
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 3
     },
     "\/dev\/js\/scripts.js" : {
       "bF" : 0,

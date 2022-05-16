@@ -3,6 +3,11 @@
 ============= */
 
 .divider{ 
+
+    @include md{
+        display: grid;
+        grid-template-columns: 50% auto;
+    }
     .container{
         .content{
        display: grid;
@@ -14,11 +19,17 @@
     }
 }
 
+    .container-blue{
+        background-color: $blue;
+    }
+
+    .container-dark-blue{
+        background-color: $darkblue;
+    }
+
    .sub-content-left{
-       background-color: $darkblue;
        display:grid;
        grid-template-columns: 50% 50%;
-       width: 500px;
        height: 72px;
        padding: 20px;
        p{
@@ -39,10 +50,8 @@
        }
    }
      .sub-content-right{
-            background-color: $blue;
             display: grid;
             grid-template-columns: 50% 50%;
-            width: 500px;
             height: 72px;
             padding: 20px;
             p{

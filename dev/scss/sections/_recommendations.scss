@@ -3,32 +3,38 @@
 ============= */
 
 .recommendations{ 
-    .content{
-        display: grid;
-        grid-template-columns: 100%;
-        gap: 15px;
-        width: auto;
-        height: 145px;
-        margin:auto;
-
-    @include sm{
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
-
-    @include md{
+    background-color: $beige;
+     @include md{
         display: grid;
         grid-template-columns: 50% auto;
     }
 
-    @include lg{
-        display: grid;
-        grid-template-rows: auto;
-    }
+    .container{
+        .content{
+            display: grid;
+            grid-template-columns: 100%;
+            gap: 15px;
 
-    @include xl{
-        display: grid;
-        grid-template-rows: auto;
+
+        @include sm{
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }   
+
+        @include md{
+            display: grid;
+            grid-template-columns: 50% auto;
+        }
+
+        @include lg{
+            display: grid;
+            grid-template-rows: auto;
+        }
+
+        @include xl{
+            display: grid;
+            grid-template-rows: auto;
+        }
     }
 }
     .content-left{
@@ -49,6 +55,7 @@
         "button image"
         ;
         background-color: $beige ;
+        padding: 20px;
         
         }
 h2{
@@ -58,22 +65,19 @@ h2{
 
     @include md{
         font-size: 28px;
-
-        button{
-            background-color: #9dcaff;
-            font-size: 14px;
-            }
         }
     }
+
     a{
         grid-area: button;
     }
     img{
         grid-area: image;
+        justify-self: end;
     }
 
     a, button{
-        color: $white;
+        color: $black;
         background-color: $blue;
         padding: 10px;
         width: 150px;
@@ -82,6 +86,6 @@ h2{
     button{
         height: 50px;
     }
-
+ 
 }
  
