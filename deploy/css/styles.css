@@ -475,13 +475,13 @@ header .container h1 {
   .footer .container .content {
     display: grid;
     grid-template-columns: 50% auto;
-    grid-template-areas: "locations newsletter" "locations social";
+    grid-template-areas: "locations newsletter" "locations socials";
   }
 }
 @media (min-width: 992px) {
   .footer .container .content {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "locations newsletter social";
+    grid-template-areas: "locations newsletter socials";
   }
 }
 .footer h3 {
@@ -499,11 +499,11 @@ header .container h1 {
   }
 }
 @media (min-width: 768px) {
-  .footer.social {
+  .footer.socials {
     grid-area: social;
   }
 }
-.footer .locations ul, .footer .follow ul {
+.footer .locations ul, .footer .socials ul {
   list-style: none;
   padding: 0;
 }
@@ -610,17 +610,18 @@ header .container h1 {
   display: grid;
   grid-template-columns: 100%;
   gap: 20px;
+  padding: 10px;
 }
 @media (min-width: 768px) {
   .whats-new .whats-new-articles .article-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: auto;
     grid-template-areas: "a1 a1 a2 a2" "a3 a3 a4 a4" ". a5 a5 .";
   }
 }
 @media (min-width: 992px) {
   .whats-new .whats-new-articles .article-grid {
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: auto;
     grid-template-areas: "a1 a1 a2 a2 a3 a3" ". a4 a4 a5 a5 .";
   }
 }
@@ -753,6 +754,7 @@ header .container h1 {
   display: grid;
   grid-template-columns: 100%;
   gap: 15px;
+  padding: 20px;
 }
 @media (min-width: 576px) {
   .recommendations .container .content {
@@ -782,15 +784,15 @@ header .container h1 {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-areas: "h2 image" "button image";
-  background-color: #f0e9df;
   padding: 20px;
+  height: 72px;
 }
 .recommendations .content-right {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-areas: "h2 image" "button image";
-  background-color: #f0e9df;
   padding: 20px;
+  height: 72px;
 }
 .recommendations h2 {
   grid-area: h2;
@@ -801,9 +803,6 @@ header .container h1 {
   .recommendations h2 {
     font-size: 28px;
   }
-}
-.recommendations a {
-  grid-area: button;
 }
 .recommendations img {
   grid-area: image;

@@ -14,23 +14,20 @@
             display: grid;
             grid-template-columns: 100%;
             gap: 15px;
-
+            padding: 20px;
 
         @include sm{
             display: grid;
             grid-template-columns: 50% 50%;
         }   
-
         @include md{
             display: grid;
             grid-template-columns: 50% auto;
         }
-
         @include lg{
             display: grid;
             grid-template-rows: auto;
         }
-
         @include xl{
             display: grid;
             grid-template-rows: auto;
@@ -42,20 +39,19 @@
         grid-template-columns: 50% 50%;
         grid-template-areas: 
         "h2 image"
-        "button image"
-        ;
-        background-color: $beige ;
+        "button image";
         padding: 20px;
+        height: 72px;
+        
     }
     .content-right{
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-areas: 
         "h2 image"
-        "button image"
-        ;
-        background-color: $beige ;
+        "button image" ;
         padding: 20px;
+        height: 72px;
         
         }
 h2{
@@ -68,9 +64,6 @@ h2{
         }
     }
 
-    a{
-        grid-area: button;
-    }
     img{
         grid-area: image;
         justify-self: end;

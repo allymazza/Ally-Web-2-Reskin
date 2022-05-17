@@ -125,6 +125,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/hero\/bookshelf.jpg" : {
+      "ft" : 16384,
+      "iS" : 1663423,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero\/bookshelf.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/hero\/bookstore.jpg" : {
       "ft" : 16384,
       "iS" : 215902,

@@ -16,12 +16,12 @@
             grid-template-columns: 50% auto;
             grid-template-areas:
             "locations newsletter"
-            "locations social";
+            "locations socials";
         }
         @include lg{
             grid-template-columns: repeat(3, 1fr);
             grid-template-areas: 
-            "locations newsletter social";
+            "locations newsletter socials";
         }
     }
 }
@@ -41,12 +41,12 @@
                 grid-area: newsletter;
             }
         }
-        &.social{
+        &.socials{
             @include md{
                 grid-area: social;
             }
         }
-        .locations, .follow{
+        .locations, .socials{
             ul{
                 list-style: none;
                 padding: 0;

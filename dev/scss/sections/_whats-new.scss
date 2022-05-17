@@ -30,10 +30,11 @@
         display: grid;
         grid-template-columns: 100%;
         gap: 20px ;
+        padding: 10px;
 
         @include md{
             display: grid;
-            grid-template-columns: repeat(4,1fr);
+            grid-template-columns: auto;
             grid-template-areas:
             "a1 a1 a2 a2"
             "a3 a3 a4 a4"
@@ -41,7 +42,7 @@
             ;
         }
         @include lg{
-            grid-template-columns: repeat(6,1fr);
+            grid-template-columns: auto;
             grid-template-areas:
             "a1 a1 a2 a2 a3 a3"
             ". a4 a4 a5 a5 .";

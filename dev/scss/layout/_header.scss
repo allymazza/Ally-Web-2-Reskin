@@ -4,9 +4,7 @@
 
 header{
     background-color: $beige;
-
     .container{
-
         .content{
             display: grid;
             grid-template-columns: 50% 50%;
@@ -24,7 +22,6 @@ header{
                
         }
     }
-   
     h1{
     display: none;
     color: black;
