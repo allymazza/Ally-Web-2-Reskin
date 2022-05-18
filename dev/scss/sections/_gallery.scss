@@ -10,8 +10,10 @@
             display: block;
          }
         ul{
-             list-style: none;
+            list-style: none;
             padding-inline-start: 0;
+            
+        
 
         @include md {
             display: grid;
@@ -31,17 +33,16 @@
             &.img-2{
                 @include xl{
                     grid-area: g2;
-
                 }
             }
 
-                &.img-3{
-                    display: none;
+            &.img-3{
+            display: none;
 
-                    @include xl{
-                        display: block;
-                        grid-area: g3;
-                    }
+                @include xl{
+                    display: block;
+                    grid-area: g3;
+                }
             
                 }    }
 
