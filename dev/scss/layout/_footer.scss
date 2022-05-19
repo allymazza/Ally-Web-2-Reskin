@@ -25,29 +25,47 @@
         }
     }
 }
+
+    .locations, .newsletter, .socials{
+        margin-top: 60px;
+    }
         h3{
             font-size: 20px;
             font-weight: 400 ;
          }
+         button{
+            color: $black;
+            background-color: $blue;
+            padding: 10px;
+            width: 100px;
+            text-align: center;
+        }
          
          &.locations{
+             display: flex;
             @include md{
                 grid-area: locations;
             }
         }
 
         &.newsletter{
+            display: flex;
+            padding: 20px;
             @include md{
                 grid-area: newsletter;
             }
         }
         &.socials{
+            display: inline;
+            margin: 5px;
+            padding: 2px;
             @include md{
                 grid-area: social;
             }
         }
         .locations, .socials{
             ul{
+                display: inline;
                 list-style: none;
                 padding: 0;
             }

@@ -5,13 +5,16 @@
 header{
     background-color: $beige;
     .container{
+        display: flex;
         .content{
             display: grid;
             grid-template-columns: 50% 50%;
 
             div{
                 margin: 20px 0 20px 0;
+                
             }
+           
 
          .site-logo{
             width: 45px;
@@ -22,6 +25,29 @@ header{
                
         }
     }
+    .burger-container{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        @include lg{
+            display: none;
+        }
+
+        button{
+            border: none;
+            background-color: transparent;
+            color: $blue;
+            font-size: 20px;
+
+            &:hover{
+                cursor: pointer;
+            }
+
+        }
+}
+        
+    
     h1{
     display: none;
     color: black;
@@ -36,4 +62,5 @@ header{
         }
     }
 }
+
 }

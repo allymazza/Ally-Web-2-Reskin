@@ -4,16 +4,17 @@
 
 .search{
         margin: 50px 0 50px 0;
+        display: inline-block;
     .content{
-
+        display: flex;
+        padding-left: 20px;
         form{
-           display:flex;
-
            input{
                width:100%;
                color: $blue;
-               margin-right: 20px;
                border-bottom: 3px solid $blue;
+               border-top: 3px solid $white;
+               border-left: 3px solid $white;
 
             @include md{
                 font-size: 30px;
@@ -25,7 +26,8 @@
                 background-color: $blue;
                 border: none;
                 margin-left: 30px;
-            }
+                float: inline-end;
+                 }
             }
         }   
     }      

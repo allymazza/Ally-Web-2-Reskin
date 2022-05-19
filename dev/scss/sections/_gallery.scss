@@ -19,6 +19,13 @@
             display: grid;
             grid-template-columns: 50% auto ;
         }
+        @include xl{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            grid-template-areas:
+            "g1 g2"
+            "g1 g3";
+        }
 
         li{
             img{
@@ -26,18 +33,23 @@
             }
 
             &.img-1{
+                width: 100%;
                 @include xl{
                     grid-area: g1;
                 }
             }
             &.img-2{
+                width: 100%;
                 @include xl{
                     grid-area: g2;
                 }
             }
 
             &.img-3{
+                
+                width: 100%;
             display: none;
+            
 
                 @include xl{
                     display: block;
